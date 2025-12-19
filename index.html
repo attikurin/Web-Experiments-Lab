@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Experiments Lab 🧪 | 実験的Webアプリ集</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Noto+Sans+JP:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Background Animation -->
+    <div class="background-animation"></div>
+    
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <i class="fas fa-flask"></i>
+                <h1>Web Experiments Lab</h1>
+            </div>
+            <p class="tagline">知的好奇心を刺激する実験的Webアプリケーション集</p>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="container">
+            <!-- Introduction Section -->
+            <section class="intro-section">
+                <h2 class="section-title">
+                    <span class="icon">🎮</span>
+                    実験室へようこそ
+                </h2>
+                <p class="intro-text">
+                    遊び心と技術の融合。最新のWeb技術を駆使した実験的プロジェクトをご紹介します。<br>
+                    各プロジェクトは、楽しさと学びのバランスを追求した独自の世界観を持っています。
+                </p>
+            </section>
+
+            <!-- Projects Grid -->
+            <section class="projects-section">
+                <div class="projects-grid">
+                    
+                    <!-- AR Art Studio -->
+                    <article class="project-card" data-category="creative">
+                        <div class="card-header">
+                            <div class="card-icon" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+                                <i class="fas fa-palette"></i>
+                            </div>
+                            <span class="badge badge-creative">Creative</span>
+                        </div>
+                        <div class="card-content">
+                            <h3 class="project-title">AR Art Studio</h3>
+                            <p class="project-description">
+                                現実世界をキャンバスに。スマホやPCのカメラで映し出した風景に、リアルタイムでお絵描きや画像合成ができるWebアプリ。アプリ不要、ブラウザだけで目の前の景色がアート作品に変わります。
+                            </p>
+                            <div class="project-tags">
+                                <span class="tag">AR Drawing</span>
+                                <span class="tag">Camera</span>
+                                <span class="tag">Image Overlay</span>
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <a href="https://attikurin.github.io/AR-Art-Studio/" target="_blank" class="btn btn-primary">
+                                <span>体験する</span>
+                                <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </article>
+
+                    <!-- 3D Minesweeper -->
+                    <article class="project-card" data-category="game">
+                        <div class="card-header">
+                            <div class="card-icon" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);">
+                                <i class="fas fa-cube"></i>
+                            </div>
+                            <span class="badge badge-game">Game</span>
+                        </div>
+                        <div class="card-content">
+                            <h3 class="project-title">3D Minesweeper</h3>
+                            <p class="project-description">
+                                従来の平面マインスイーパーを完全3D空間へ。宇宙に浮かぶキューブを回転・ズームし、最大26個の隣接ブロックを推理。EASY（4³）からIMPOSSIBLE（10³）まで5段階の難易度で空間認識力が試されます。
+                            </p>
+                            <div class="project-tags">
+                                <span class="tag">3D Puzzle</span>
+                                <span class="tag">Space Logic</span>
+                                <span class="tag">26-Cell</span>
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <a href="https://attikurin.github.io/3DMinesweeper/" target="_blank" class="btn btn-primary">
+                                <span>プレイする</span>
+                                <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </article>
+
+                    <!-- ダメ社員マネージャー -->
+                    <article class="project-card" data-category="simulation">
+                        <div class="card-header">
+                            <div class="card-icon" style="background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);">
+                                <i class="fas fa-briefcase"></i>
+                            </div>
+                            <span class="badge badge-simulation">Simulation</span>
+                        </div>
+                        <div class="card-content">
+                            <h3 class="project-title">ダメ社員マネージャー</h3>
+                            <p class="project-description">
+                                「今やろうと思ってました」「体調不良で…」クセの強い社員カードで納期までに進捗100%を目指すカードゲーム。通常モードとハードモード（履歴書が見えない！）で胃に穴が開く前にプロジェクトを完遂させよう。
+                            </p>
+                            <div class="project-tags">
+                                <span class="tag">Card Game</span>
+                                <span class="tag">Black Humor</span>
+                                <span class="tag">Project Hell</span>
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <a href="https://attikurin.github.io/bad-employee-manager/" target="_blank" class="btn btn-primary">
+                                <span>管理開始</span>
+                                <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </article>
+
+                    <!-- 大先生バトル -->
+                    <article class="project-card" data-category="battle">
+                        <div class="card-header">
+                            <div class="card-icon" style="background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);">
+                                <i class="fas fa-comments"></i>
+                            </div>
+                            <span class="badge badge-battle">Battle</span>
+                        </div>
+                        <div class="card-content">
+                            <h3 class="project-title">大先生バトル</h3>
+                            <p class="project-description">
+                                職場の理不尽上司「大先生」との不毛な会議をシミュレート！議事録、Yes/No質問、期限設定で大先生のプライドを削れ。あなたのSAN値（メンタル）が尽きる前に定時退社を勝ち取れ！ターン制カードバトルRPG。
+                            </p>
+                            <div class="project-tags">
+                                <span class="tag">Turn-based RPG</span>
+                                <span class="tag">Office Satire</span>
+                                <span class="tag">Mental Battle</span>
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <a href="https://attikurin.github.io/daisenseibattle/" target="_blank" class="btn btn-primary">
+                                <span>バトル開始</span>
+                                <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </article>
+
+                    <!-- 大先生討伐戦 -->
+                    <article class="project-card" data-category="raid">
+                        <div class="card-header">
+                            <div class="card-icon" style="background: linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%);">
+                                <i class="fas fa-crosshairs"></i>
+                            </div>
+                            <span class="badge badge-raid">Raid</span>
+                        </div>
+                        <div class="card-content">
+                            <h3 class="project-title">大先生討伐戦</h3>
+                            <p class="project-description">
+                                曖昧さ・責任転嫁・やったふりを具現化したボス「大先生」と戦う3DシューティングFPS！「事実確認」「納期」を弾丸に、顔写真アップロード機能で自分だけのボスを生成。定時退社（勝利）を目指せ！
+                            </p>
+                            <div class="project-tags">
+                                <span class="tag">3D FPS</span>
+                                <span class="tag">Three.js</span>
+                                <span class="tag">Custom Boss</span>
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <a href="https://attikurin.github.io/daisensei-Subjugation/" target="_blank" class="btn btn-primary">
+                                <span>討伐に参加</span>
+                                <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </article>
+
+                    <!-- Cosmic Particles -->
+                    <article class="project-card" data-category="interactive">
+                        <div class="card-header">
+                            <div class="card-icon" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);">
+                                <i class="fas fa-hand-sparkles"></i>
+                            </div>
+                            <span class="badge badge-interactive">Interactive</span>
+                        </div>
+                        <div class="card-content">
+                            <h3 class="project-title">Cosmic Particles</h3>
+                            <p class="project-description">
+                                Webカメラで「光」を操るインタラクティブアート。8000個以上の光の粒子が手の動きに反応。Sphere（秩序）、Vortex（混沌）、Scatter（解放）の3モード。MediaPipeとThree.jsで魔法のような体験を。
+                            </p>
+                            <div class="project-tags">
+                                <span class="tag">Hand Tracking</span>
+                                <span class="tag">Particle System</span>
+                                <span class="tag">MediaPipe</span>
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <a href="https://attikurin.github.io/Cosmic-Particles/" target="_blank" class="btn btn-primary">
+                                <span>光を操る</span>
+                                <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </article>
+
+                </div>
+            </section>
+
+            <!-- Stats Section -->
+            <section class="stats-section">
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-flask"></i>
+                        </div>
+                        <div class="stat-number" data-count="6">0</div>
+                        <div class="stat-label">実験プロジェクト</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <div class="stat-number" data-count="100">0</div>
+                        <div class="stat-label">技術的挑戦 (%)</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-lightbulb"></i>
+                        </div>
+                        <div class="stat-number" data-count="999">0</div>
+                        <div class="stat-label">創造的アイデア</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-smile"></i>
+                        </div>
+                        <div class="stat-number" data-count="∞">0</div>
+                        <div class="stat-label">楽しさ指数</div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Footer Info -->
+            <section class="footer-info">
+                <p>
+                    <i class="fas fa-info-circle"></i>
+                    これらのプロジェクトは実験的な性質を持ち、予告なく変更される可能性があります。<br>
+                    最新のブラウザでの閲覧を推奨します。楽しい実験を！
+                </p>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Web Experiments Lab. All experiments conducted with curiosity.</p>
+            <div class="social-links">
+                <a href="https://github.com/attikurin" target="_blank" title="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
