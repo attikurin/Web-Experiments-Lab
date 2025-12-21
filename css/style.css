@@ -176,6 +176,38 @@ body {
     letter-spacing: 0.02em;
 }
 
+/* Hero Image Section */
+.hero-image-section {
+    margin-bottom: var(--spacing-2xl);
+    border-radius: var(--radius-xl);
+    overflow: hidden;
+    box-shadow: var(--shadow-lg), var(--shadow-glow);
+    animation: fadeIn 1s ease;
+}
+
+.hero-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: var(--radius-xl);
+    transition: transform var(--transition-slow);
+}
+
+.hero-image:hover {
+    transform: scale(1.02);
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
 /* Introduction Section */
 .intro-section {
     text-align: center;

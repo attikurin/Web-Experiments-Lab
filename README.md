@@ -4,7 +4,11 @@
 
 ## 📋 プロジェクト概要
 
+![Web Experiments Lab](images/site-thumbnail.jpg)
+
 Web Experiments Labは、最新のWeb技術を活用した実験的プロジェクトのショーケースサイトです。AR、3Dグラフィックス、ゲーム、シミュレーションなど、多様なジャンルのWebアプリケーションを紹介しています。
+
+**ALL GAMES POWERED BY GEMINI** - すべてのゲームはGemini AIの支援により開発されています。
 
 ### コンセプト
 - **知的**: 技術的な探求心を刺激
