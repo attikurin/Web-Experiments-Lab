@@ -329,6 +329,11 @@ body {
     color: #7dd3fc;
 }
 
+.badge-utility {
+    background: rgba(67, 233, 123, 0.2);
+    color: #86efac;
+}
+
 .card-content {
     padding: 0 var(--spacing-lg) var(--spacing-lg);
     flex-grow: 1;
