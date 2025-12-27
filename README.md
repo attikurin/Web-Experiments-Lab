@@ -51,7 +51,12 @@ Web Experiments Labは、最新のWeb技術を活用した実験的プロジェ�
    - MediaPipeハンドトラッキング＋Three.jsパーティクルシステム
    - URL: https://attikurin.github.io/Cosmic-Particles/
 
-7. **スマートグループ分け**
+7. **全自動・顔モザイクメーカー**
+   - AIが顔を自動検出してモザイク処理
+   - 超高精度モード、プライバシー安全設計（ブラウザ内完結）
+   - URL: https://attikurin.github.io/FaceMosaicApp/
+
+8. **スマートグループ分け**
    - 参加者を自動で最適なチームに分割
    - 男女比均等化、役割自動割り当て対応
    - URL: https://attikurin.github.io/GroupMaker/
