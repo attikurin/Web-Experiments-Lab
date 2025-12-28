@@ -361,6 +361,11 @@ body {
     color: #7dd3fc;
 }
 
+.badge-sports {
+    background: rgba(250, 139, 255, 0.2);
+    color: #f0abfc;
+}
+
 .badge-utility {
     background: rgba(67, 233, 123, 0.2);
     color: #86efac;
