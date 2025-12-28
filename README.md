@@ -56,10 +56,30 @@ Web Experiments Labは、最新のWeb技術を活用した実験的プロジェ�
    - 超高精度モード、プライバシー安全設計（ブラウザ内完結）
    - URL: https://attikurin.github.io/FaceMosaicApp/
 
-8. **スマートグループ分け**
-   - 参加者を自動で最適なチームに分割
-   - 男女比均等化、役割自動割り当て対応
-   - URL: https://attikurin.github.io/GroupMaker/
+8. **クイック席替えメーカー**
+   - 教室やオフィスの座席配置を瞬時に生成
+   - ランダム・条件付き席替え、ビジュアル表示対応
+   - URL: https://attikurin.github.io/Quick-Seat-Change-Maker/
+
+9. **教室用ビジュアルタイマー**
+   - 大画面で見やすい教室・プレゼン向けタイマー
+   - カスタマイズ可能な色・サウンド、フルスクリーン対応
+   - URL: https://attikurin.github.io/Classroom-Timer/
+
+10. **クラスメモボード**
+    - 教室で使えるデジタルメモボード
+    - 連絡事項・宿題・スケジュールを大画面共有、リアルタイム編集
+    - URL: https://attikurin.github.io/class-memo-board/
+
+11. **ランダムセレクター**
+    - リストから項目をランダムに選出
+    - 複数の演出モード、除外機能、履歴管理対応
+    - URL: https://attikurin.github.io/RandomSelector/
+
+12. **スマートグループ分け**
+    - 参加者を自動で最適なチームに分割
+    - 男女比均等化、役割自動割り当て対応
+    - URL: https://attikurin.github.io/GroupMaker/
 
 ### サイト機能
 
