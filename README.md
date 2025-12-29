@@ -94,7 +94,21 @@ Web Experiments Labは、最新のWeb技術を活用した実験的プロジェ�
     - PDFは全ページ高解像度分割、Officeファイルも専用ソフト不要で画像化
     - URL: https://attikurin.github.io/Universal-PNG-Converter/
 
-14. **スマートグループ分け**
+14. **QR Generator**
+    - 教材用QRコード一括生成ツール
+    - Excelからコピペで大量のQRコードを一度に生成
+    - A4用紙印刷最適化、色・サイズ・枠線リアルタイム調整、PDF保存対応
+    - タイトル・URL・説明文付きカード自動生成
+    - URL: https://attikurin.github.io/QR-Generator/
+
+15. **教室シミュレーター**
+    - 教室座席・レイアウト配置シミュレーションツール
+    - 机・椅子・教卓をドラッグ&ドロップで自由配置
+    - 自動配置パターン（一斉授業/グループ学習/コの字型）ワンクリック適用
+    - 視認性チェック機能、ローカル保存対応
+    - URL: https://attikurin.github.io/classroom-simulator/
+
+16. **スマートグループ分け**
     - 参加者を自動で最適なチームに分割
     - 男女比均等化、役割自動割り当て対応
     - URL: https://attikurin.github.io/GroupMaker/
