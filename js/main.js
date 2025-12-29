@@ -1475,6 +1475,47 @@ window.addEventListener('resize', () => {
 
 console.log('🧪 Web Experiments Lab initialized!');
 console.log('💡 Try clicking the logo 3 times or use the Konami code!');
+
+/**
+ * HTMLダウンロード機能の初期化
+ */
+function initDownloadButtons() {
+    const downloadButtons = document.querySelectorAll('.btn-secondary[download]');
+    
+    downloadButtons.forEach(button => {
+        button.addEventListener('click', async (e) => {
+            e.preventDefault();
+            const url = button.getAttribute('href');
+            const filename = url.split('/').filter(part => part).pop() || 'index.html';
+            
+            try {
+                // 通知表示
+                showNotification('ダウンロードを開始しています...', 'info');
+                
+                // HTMLファイルを取得してダウンロード
+                const response = await fetch(url);
+                if (!response.ok) throw new Error('Download failed');
+                
+                const blob = await response.blob();
+                const link = document.createElement('a');
+                link.href = URL.createObjectURL(blob);
+                link.download = filename;
+                document.body.appendChild(link);
+                link.click();
+                document.body.removeChild(link);
+                URL.revokeObjectURL(link.href);
+                
+                showNotification('✅ ダウンロード完了！', 'success');
+            } catch (error) {
+                console.error('Download error:', error);
+                showNotification('❌ ダウンロードに失敗しました', 'error');
+            }
+        });
+    });
+}
+
+// ダウンロードボタンの初期化
+initDownloadButtons();
 console.log('✨ Hidden commands: "magic", "snow", "star", "party", "neko"');
 console.log('💥 Destruction spells: "destroy", "explosion"');
 console.log('📖 Type "help" or "hint" to see all commands!');

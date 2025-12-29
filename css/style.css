@@ -415,6 +415,9 @@ body {
 .card-footer {
     padding: var(--spacing-lg);
     border-top: 1px solid rgba(255, 255, 255, 0.1);
+    display: flex;
+    gap: var(--spacing-sm);
+    flex-wrap: wrap;
 }
 
 /* Button */
@@ -463,6 +466,22 @@ body {
 
 .btn:hover i {
     transform: translateX(4px);
+}
+
+.btn-secondary {
+    background: rgba(255, 255, 255, 0.1);
+    color: var(--text-primary);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.btn-secondary:hover {
+    background: rgba(255, 255, 255, 0.15);
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-md);
+}
+
+.btn-secondary i {
+    margin-right: var(--spacing-xs);
 }
 
 /* Stats Section */
