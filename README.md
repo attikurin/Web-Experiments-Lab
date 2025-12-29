@@ -88,7 +88,13 @@ Web Experiments Labは、最新のWeb技術を活用した実験的プロジェ�
     - 体育授業・部活動・スポーツトレーニングに最適
     - URL: https://attikurin.github.io/FormMirror/
 
-13. **スマートグループ分け**
+13. **万能PNGコンバーター**
+    - PDF、画像、Office（Excel・Word・PowerPoint）、テキストをPNG画像に変換
+    - 完全クライアントサイド処理、一括ZIP保存対応
+    - PDFは全ページ高解像度分割、Officeファイルも専用ソフト不要で画像化
+    - URL: https://attikurin.github.io/Universal-PNG-Converter/
+
+14. **スマートグループ分け**
     - 参加者を自動で最適なチームに分割
     - 男女比均等化、役割自動割り当て対応
     - URL: https://attikurin.github.io/GroupMaker/
