@@ -108,7 +108,19 @@ Web Experiments Labは、最新のWeb技術を活用した実験的プロジェ�
     - 視認性チェック機能、ローカル保存対応
     - URL: https://attikurin.github.io/classroom-simulator/
 
-16. **スマートグループ分け**
+16. **クラス運営マスター**
+    - 小学校の学級運営オールインワンツール
+    - 日直ローテーション、給食・掃除班分け、係活動管理、発表くじ（公平な指名）を一画面で
+    - 欠席者ワンタッチ除外、回数カウントで公平性可視化、CSV出力対応
+    - URL: https://attikurin.github.io/ClassManager/
+
+17. **名札メーカー Pro**
+    - 首かけ名札（A4×8人分）と三角席札（A4×3人分）を簡単作成
+    - CSV一括登録、切り取り線自動配置、フォント・テーマカラー変更
+    - 印刷最適化、ブラウザ完結でインストール不要
+    - URL: https://attikurin.github.io/Digital-name-and-seat-card-manufacturer/
+
+18. **スマートグループ分け**
     - 参加者を自動で最適なチームに分割
     - 男女比均等化、役割自動割り当て対応
     - URL: https://attikurin.github.io/GroupMaker/
