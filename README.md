@@ -120,7 +120,19 @@ Web Experiments Labは、最新のWeb技術を活用した実験的プロジェ�
     - 印刷最適化、ブラウザ完結でインストール不要
     - URL: https://attikurin.github.io/Digital-name-and-seat-card-manufacturer/
 
-18. **スマートグループ分け**
+18. **時間割メーカー**
+    - 週間時間割を簡単作成。4つのデザインテーマ（ポップ・自然・クール・基本）
+    - 児童用/保護者用モード切替、科目の色・名前カスタマイズ、期間自動入力
+    - A4横印刷・PDF保存最適化、データ自動保存でいつでも編集再開
+    - URL: https://attikurin.github.io/WeeklyScheduleMaker/
+
+19. **デジタル出席簿**
+    - 月間カレンダー型の出席管理ツール。クリックだけで出席○・遅刻△・欠席×を入力
+    - 自動集計で出席・欠席・遅刻日数を即座に表示。欠席多数の児童を赤色ハイライト
+    - CSV出力でExcel連携。データ自動保存。学習eポータルより軽快
+    - URL: https://attikurin.github.io/digital-attendance-record/
+
+20. **スマートグループ分け**
     - 参加者を自動で最適なチームに分割
     - 男女比均等化、役割自動割り当て対応
     - URL: https://attikurin.github.io/GroupMaker/
